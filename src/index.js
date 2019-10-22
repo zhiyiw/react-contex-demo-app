@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import GrandParent from "./Components/family";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Hello</h1>
+      <div>
+        <GrandParent />
+      </div>
     </div>
   );
 }
